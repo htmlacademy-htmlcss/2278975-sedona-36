@@ -10,7 +10,7 @@ body {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -18,39 +18,14 @@ body {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/pt-sans-italic.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
-  font-display: swap;
-}
-
-/* PT Sans Narrow */
-@font-face {
-  font-family: "PT Sans Narrow";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/pt-sans-narrow-bold.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Great Vibes";
   src: url("../fonts/GreatVibes-Regular.ttf");
-  font-size: normal;
+  font-weight: 400;
   font-style: italic;
 }
 
@@ -124,7 +99,7 @@ body {
 }
 
 .advantages-description {
-  font-family: 'PT Sans', sans-serif\\;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -144,7 +119,7 @@ body {
 }
 
 .advantages-description-2 {
-  font-family: 'PT Sans', sans-serif\\;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -165,7 +140,7 @@ body {
 }
 
 .advantages-description-1 {
-  font-family: 'PT Sans', sans-serif\\;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -272,7 +247,7 @@ body {
 }
 
 .navigation-choise-name {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -280,7 +255,7 @@ body {
 }
 
 .navigation-choise-text {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -297,7 +272,7 @@ body {
 }
 
 .control-input {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -312,7 +287,7 @@ body {
 }
 
 .search {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -321,7 +296,7 @@ body {
 }
 
 .select-control {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -329,7 +304,7 @@ body {
 }
 
 .product-card-title {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -338,7 +313,7 @@ body {
 }
 
 .product-card-price {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -347,7 +322,7 @@ body {
 }
 
 .product-card-button-1 {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -361,7 +336,7 @@ body {
 }
 
 .product-card-button-2 {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -375,7 +350,7 @@ body {
 }
 
 .product-card-rating {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -386,7 +361,7 @@ body {
 }
 
 .pagination-link {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
