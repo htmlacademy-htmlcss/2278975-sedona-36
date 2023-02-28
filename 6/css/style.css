@@ -26,6 +26,10 @@ body {
   height: 100%;
 }
 
+.reset-list {
+  margin: 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -44,6 +48,9 @@ body {
 }
 
 .header-logo {
+  background: url(../images/vectors/logo.svg);
+  width: 140px;
+  height: 70px;
   display: block;
   margin-left: 70px;
 }
@@ -76,11 +83,9 @@ body {
 
 .navigation-search {
   display: inline-block;
-  background: url(../images/vectors/search.svg);
+  background: url(../images/vectors/search.svg) no-repeat 50% 50%;
   width: 20px;
   height: 20px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
 }
 
 .navigation-favorites {
@@ -163,9 +168,8 @@ body {
 
 .advantages-item {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
+  padding: 0;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -260,10 +264,9 @@ body {
 
 .goodies-item {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
   justify-content: space-between;
 }
 
@@ -367,7 +370,6 @@ body {
 .footer-social-list {
   list-style-type: none;
   display: flex;
-  margin: 0;
   margin-left: 80px;
   padding: 0;
   align-items: center;
@@ -405,6 +407,8 @@ body {
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
+  color:#000000;
 }
 
 .footer-logo {
@@ -434,9 +438,8 @@ body {
 
 .breadcrumbs-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
+  padding: 0;
   margin-bottom: 45.5px;
 }
 
@@ -461,14 +464,12 @@ body {
 .catalog-filter-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
 .catalog-filter-group:first-child {
   border: none;
-  width: 150px;
   padding: 0;
-  margin: 0;
+  width: 150px;
 }
 
 .catalog-filter-group:nth-child(2) {
@@ -585,16 +586,11 @@ body {
   border-color: #000000;
 }
 
-.search-button:last-child {
-  margin-right: 0;
-}
-
 .product-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
   align-items: center;
   justify-content: space-between;
 }
@@ -719,10 +715,9 @@ body {
 
 .pagination {
   display: flex;
-  margin: 0;
-  padding: 0;
   list-style-type: none;
   margin-top: 40px;
+  padding: 0;
   margin-bottom: 60px;
 }
 
