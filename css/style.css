@@ -563,6 +563,7 @@ body {
 }
 
 .footer-logo {
+  background: url(/images/vectors/html-academy.svg) no-repeat 100%;
   display: block;
   margin-top: 52px;
   margin-right: 70px;
