@@ -153,10 +153,12 @@ body {
 
 .want-here:focus {
   background: #615048;
+  border-radius: 4px;
 }
 
 .want-here:active {
   background: #756157;
+  border-radius: 4px;
 }
 
 
