@@ -1666,7 +1666,7 @@ margin: 0;
 }
 
 
-.search-button {
+.search-form-button {
   font-size: 20px;
   line-height: 24px;
   background: #83B3D3;
@@ -1675,11 +1675,11 @@ margin: 0;
   height: 60px;
 }
 
-.search-button:hover {
+.search-form-button:hover {
   border-radius: 10px;
   border: none;
 }
 
-.search-button:focus {
+.search-form-button:focus {
   border-radius: 10px;
 }
