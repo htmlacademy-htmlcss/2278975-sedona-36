@@ -4,10 +4,23 @@
   <meta charset="utf-8">
   <title>HTML Academy: Каталог</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="manifest" href="#">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/images/photos/favicon.png">
-    <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
   <div class="container">
@@ -95,21 +108,21 @@
                       <ul class="catalog-filter-list">
                         <li class="catalog-filter-item">
                           <label class="control">
-                            <input class="control-input visually-hidden" type="radio" name="hotel" checked="">
+                            <input class="control-input visually-hidden" type="radio" name="rdbtn" checked="">
                             <span class="control-mark-extra"></span>
                             <span class="control-input-description">Гостиница</span>
                           </label>
                         </li>
                         <li class="catalog-filter-item">
                           <label class="control">
-                            <input class="control-input visually-hidden" type="radio" name="motel">
+                            <input class="control-input visually-hidden" type="radio" name="rdbtn">
                             <span class="control-mark-extra"></span>
                             <span class="control-input-description">Мотель</span>
                           </label>
                         </li>
                         <li class="catalog-filter-item">
                           <label class="control">
-                            <input class="control-input visually-hidden" type="radio" name="apartaments">
+                            <input class="control-input visually-hidden" type="radio" name="rdbtn">
                             <span class="control-mark-extra"></span>
                             <span class="control-input-description">Апартаменты</span>
                           </label>
@@ -133,8 +146,12 @@
                     </div>
                     <div class="range-scale">
                       <div class="range-bar-div" style="left: 0; width: 226px;">
-                        <button class="range-toggle toggle-min" type="button"></button>
-                        <button class="range-toggle toggle-max" type="button"></button>
+                        <button class="range-toggle toggle-min" type="button">
+                          <span class="visually-hidden">Левая часть, минимальная цена.</span>
+                        </button>
+                        <button class="range-toggle toggle-max" type="button">
+                          <span class="visually-hidden">Правая часть, максимальная цена.</span>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -172,7 +189,7 @@
           <li class="product-card">
             <a class="product-card-link" href="product1.html">
               <img class="product-card-image" src="images/hotel-photos/hotel-1.jpg" width="300" height="212" alt="фото гостиницы Amara">
-              <h4 class="product-card-title">Amara Resort & Spa</h4>
+              <h3 class="product-card-title">Amara Resort & Spa</h3>
             </a>
             <div class="product-wrapper-price">
               <span class="product-card-text">Гостиница</span>
@@ -193,7 +210,7 @@
           <li class="product-card">
             <a class="product-card-link" href="product1.html">
               <img class="product-card-image" src="images/hotel-photos/hotel-2.jpg" width="300" height="212" alt="фото гостиницы Amara">
-              <h4 class="product-card-title">Villas at Poco Diablo</h4>
+              <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
             <div class="product-wrapper-price">
               <span class="product-card-text">Гостиница</span>
@@ -214,7 +231,7 @@
           <li class="product-card">
             <a class="product-card-link" href="product1.html">
               <img class="product-card-image" src="images/hotel-photos/hotel-3.jpg" width="300" height="212" alt="фото гостиницы Amara">
-              <h4 class="product-card-title">Desert Quail Inn</h4>
+              <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
             <div class="product-wrapper-price">
               <span class="product-card-text">Гостиница</span>
@@ -234,7 +251,7 @@
           <li class="product-card">
             <a class="product-card-link" href="product1.html">
               <img class="product-card-image" src="images/hotel-photos/hotel-4.jpg" width="300" height="212" alt="фото гостиницы Amara">
-              <h4 class="product-card-title">GreenTree Inn</h4>
+              <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
             <div class="product-wrapper-price">
               <span class="product-card-text">Гостиница</span>
@@ -277,18 +294,20 @@
       <!-- Подписка на рассылку -->
       <section class="news-letter-catalog">
         <div class="news-letter-catalog-wrapper">
-          <h2 class="news-letter-catalog-title">Подпишитесь на рассылку</h2>
+          <h4 class="news-letter-catalog-title">Подпишитесь на рассылку</h4>
           <p class="news-letter-catalog-description">Только полезная информация и никакого спама, честное бойкаутское!</p>
           <form class="news-letter-form" action="https://echo.htmlacademy.ru/" method="post">
             <input class="field" placeholder="Ваш e-mail" type="email" name="news-letter-email" id="news-letter-email" required>
-            <button class="news-letter-button light-button" type="submit">Подписаться</button>
+            <button class="news-letter-button light-button" type="submit">
+              Подписаться
+            </button>
           </form>
         </div>
       </section>
     </main>
     <!-- Footer -->
-    <footer class="page-footer">
-      <h2 class="visually-hidden">Контакты.</h2>
+    <footer class="page-footer-catalog">
+      <h4 class="visually-hidden">Контакты.</h4>
       <ul class="social-list-footer">
         <li class="social-item-footer">
           <a class="social-link-footer social-link-footer-vk" href="https://vk.com/htmlacademy">
